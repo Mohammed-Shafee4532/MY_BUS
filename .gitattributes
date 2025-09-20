@@ -1,0 +1,13 @@
+# Ensure text files use LF in repo
+* text=auto
+
+# Treat all HTML, CSS and JS files as text
+*.html text
+*.css text
+*.js text
+
+# Keep images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
